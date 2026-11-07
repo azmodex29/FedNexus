@@ -13,8 +13,12 @@ License 2.0. The upstream project and license are available at:
 - https://github.com/adap/flower/blob/main/LICENSE
 
 The repository retains the Apache License 2.0 text in `LICENSE` to meet the
-upstream attribution requirement. The project's own license and copyright
-holder have not yet been confirmed; publishing should wait for that decision.
+upstream attribution requirement. The intended copyright holder for the
+project's original material is **The Federated Learning Project Contributors**.
+The team's intended MIT license remains conditional on agreement and authority
+from all five contributors, so no project MIT license has been added. These
+statements do not change the ownership or licensing of Flower or any other
+third-party material.
 
 ## Runtime dependencies
 

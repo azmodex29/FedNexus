@@ -80,3 +80,13 @@ If PowerShell's local execution policy prevents activation, use the virtual-envi
 | Final verification | `scripts/verify_experiment.py`, `scripts/test_dashboard.py`, `pip check`, and source compilation completed successfully. A search of non-ignored project content found no credential or token material. |
 | Git | Existing repository had no commits and no remotes. A local initial checkpoint commit was prepared; no push or remote creation was performed. |
 
+## 2026-11-07 — Team attribution and conditional license decision
+
+| Check | Actual result |
+| --- | --- |
+| Contributors | Added `AUTHORS.md` listing Baranya Mishra, Suhani Sinha, Devansh Aarav Das, Srujan Sanket Mishra, and Ashish Kalyan Pattanayak without assigning individual roles. |
+| Copyright | Recorded `The Federated Learning Project Contributors` as the intended holder for the team's original project material only. |
+| License | The team's intended MIT license is explicitly conditional on agreement and licensing authority from all five contributors. No project MIT license was added. |
+| Third-party material | Preserved Flower's Apache-2.0 attribution, the existing upstream license text, and third-party notices without claiming team ownership of third-party code. |
+| Publication | No existing commit was modified, no remote was added, and no publishing action was performed. Intended initial GitHub visibility remains private when publishing is later authorized. |
+

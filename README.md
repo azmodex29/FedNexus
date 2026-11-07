@@ -62,6 +62,17 @@ the source for the following values and are independently checked by
 The saved output also includes initial global-model evaluation (round 0) and
 weighted aggregate client-local training/validation metrics.
 
+## Team and contributors
+
+This is a five-member university team project. The contributors are listed in
+[AUTHORS.md](AUTHORS.md): Baranya Mishra, Suhani Sinha, Devansh Aarav Das,
+Srujan Sanket Mishra, and Ashish Kalyan Pattanayak. No individual roles or
+specific contributions are assigned in this repository.
+
+The intended copyright holder for the team's original project material is
+**The Federated Learning Project Contributors**. This designation does not
+claim ownership of Flower, MNIST, or other third-party software and materials.
+
 ## Dashboard screenshot
 
 <!-- Add an annotated screenshot here after capturing it locally, for example:
@@ -179,5 +190,7 @@ the adapted implementation files; the dashboard, verification scripts, and
 project documentation are this project's own additions. See
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attribution and dependency
 notes. The repository includes the Apache License 2.0 text required for the
-upstream adaptation, but the project's own license and copyright holder must
-be confirmed before public publication.
+upstream adaptation. The team's intended license for its original material is
+MIT, subject to confirmation that all five contributors agree and have the
+authority to license their contributions. Until then, no project MIT license
+has been added. The intended initial GitHub visibility is private.

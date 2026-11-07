@@ -43,6 +43,13 @@ Publishing and presentation preparation remain out of scope pending user confirm
 - Added prominent file-level notices to Flower quickstart-derived modules and
   clarified that Apache-2.0 upstream attribution is preserved while the
   project's own license/copyright holder still needs user confirmation.
+- Recorded the five-member university team in `AUTHORS.md` and added a Team /
+  Contributors section to the README without assigning individual roles or
+  contributions. The intended copyright holder is `The Federated Learning
+  Project Contributors`; an MIT license remains conditional on all five
+  contributors agreeing and having authority to license their contributions.
+- Preserved the existing Flower Apache-2.0 attribution and license text. No
+  project MIT license, remote, visibility change, or publishing action was made.
 
 ## Failed tasks
 
@@ -51,8 +58,9 @@ Publishing and presentation preparation remain out of scope pending user confirm
 
 ## Outstanding tasks
 
-- Confirm the intended project copyright holder and license before public
-  publication. No remote has been added and no publication action has occurred.
+- Obtain agreement and licensing authority confirmation from all five
+  contributors before adding a project MIT license or publishing. No remote has
+  been added and no publication action has occurred.
 
 ## Exact commands already executed
 
@@ -95,7 +103,7 @@ py -3.11 -m venv .venv
 
 ## Next action required
 
-Review the local checkpoint commit and confirm the intended project license and
-copyright holder before publishing. Do not push or create a remote without a
-new request.
+Review the local checkpoint commit and obtain all five contributors' agreement
+and licensing-authority confirmation before adding the intended MIT license or
+publishing. Do not push or create a remote without a new request.
 

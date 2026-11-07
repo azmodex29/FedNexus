@@ -84,9 +84,18 @@ If PowerShell's local execution policy prevents activation, use the virtual-envi
 
 | Check | Actual result |
 | --- | --- |
-| Contributors | Added `AUTHORS.md` listing Baranya Mishra, Suhani Sinha, Devansh Aarav Das, Srujan Sanket Mishra, and Ashish Kalyan Pattanayak without assigning individual roles. |
+| Contributors | Added `AUTHORS.md` listing Baranya Mishra, Suhani Sinha, Devanssh Arav Das, Srujan Sanket Mishra, and Ashish Kalyan Pattanayak without assigning individual roles. |
 | Copyright | Recorded `The Federated Learning Project Contributors` as the intended holder for the team's original project material only. |
 | License | The team's intended MIT license is explicitly conditional on agreement and licensing authority from all five contributors. No project MIT license was added. |
 | Third-party material | Preserved Flower's Apache-2.0 attribution, the existing upstream license text, and third-party notices without claiming team ownership of third-party code. |
 | Publication | No existing commit was modified, no remote was added, and no publishing action was performed. Intended initial GitHub visibility remains private when publishing is later authorized. |
+
+## 2026-11-07 — FedNexus publication preparation
+
+| Check | Actual result |
+| --- | --- |
+| Identity | Rebranded project-facing documentation, package metadata, and the local dashboard as `FedNexus — A Distributed Federated Learning Framework`. |
+| Contributors | Corrected the contributor name to `Devanssh Arav Das` and documented the approved proposed technical responsibility areas without asserting individual file or commit authorship. |
+| License scope | Created the approved standard MIT root `LICENSE` for original FedNexus material and preserved the prior Apache-2.0 text verbatim at `THIRD_PARTY_LICENSES/FLOWER-APACHE-2.0.txt` for Flower-derived material. |
+| Validation | Editable `fednexus` installation, experiment verifier, dashboard smoke test, `pip check`, source compilation, result/summary validation, CPU checkpoint loading, README command-help checks, contributor spelling scan, and credential scan completed successfully. |
 

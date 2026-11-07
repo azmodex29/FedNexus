@@ -2,8 +2,8 @@
 
 ## Current phase
 
-Phase 5 — GitHub-readiness audit and local repository preparation **complete**.
-Publishing and presentation preparation remain out of scope pending user confirmation.
+Phase 8 — FedNexus publication preparation **in progress**. Local history is
+preserved; remote publication remains pending final validation and remote audit.
 
 ## Completed tasks
 
@@ -45,11 +45,18 @@ Publishing and presentation preparation remain out of scope pending user confirm
   project's own license/copyright holder still needs user confirmation.
 - Recorded the five-member university team in `AUTHORS.md` and added a Team /
   Contributors section to the README without assigning individual roles or
-  contributions. The intended copyright holder is `The Federated Learning
-  Project Contributors`; an MIT license remains conditional on all five
-  contributors agreeing and having authority to license their contributions.
-- Preserved the existing Flower Apache-2.0 attribution and license text. No
-  project MIT license, remote, visibility change, or publishing action was made.
+  contributions.
+- Rebranded project-facing material as **FedNexus — A Distributed Federated
+  Learning Framework**, corrected the team name to `Devanssh Arav Das`, and
+  documented approved proposed technical responsibility areas without claiming
+  individual implementation history.
+- Replaced the incorrectly scoped root Apache-2.0 file with the approved MIT
+  license for original FedNexus material and preserved the prior Apache-2.0 text
+  verbatim under `THIRD_PARTY_LICENSES/` for Flower-derived material.
+- Reinstalled the editable `fednexus` package and reran experiment verification,
+  dashboard tests, `pip check`, source compilation, CPU checkpoint validation,
+  documentation-command help checks, contributor spelling checks, and a secret
+  scan successfully.
 
 ## Failed tasks
 
@@ -58,9 +65,8 @@ Publishing and presentation preparation remain out of scope pending user confirm
 
 ## Outstanding tasks
 
-- Obtain agreement and licensing authority confirmation from all five
-  contributors before adding a project MIT license or publishing. No remote has
-  been added and no publication action has occurred.
+- Add the approved GitHub remote only after a clean remote audit, then publish
+  the preserved history without rewriting it.
 
 ## Exact commands already executed
 
@@ -103,7 +109,6 @@ py -3.11 -m venv .venv
 
 ## Next action required
 
-Review the local checkpoint commit and obtain all five contributors' agreement
-and licensing-authority confirmation before adding the intended MIT license or
-publishing. Do not push or create a remote without a new request.
+Complete the FedNexus branding, license separation, validation, local commit,
+remote audit, and authorized publication without rewriting history.
 

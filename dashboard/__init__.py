@@ -1,1 +1,1 @@
-"""Local Streamlit dashboard helpers for the federated MNIST experiment."""
+"""Local Streamlit dashboard helpers for the FedNexus MNIST experiment."""

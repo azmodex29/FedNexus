@@ -1,8 +1,10 @@
-# Project Plan — Privacy-Preserving Distributed Image Classification Using Federated Learning
+# Project Plan — FedNexus: A Distributed Federated Learning Framework
 
 ## Scope
 
-Build a CPU-only local academic demonstrator using Flower, PyTorch, three simulated Flower clients, one Flower server, FedAvg, MNIST, and a Streamlit metrics dashboard.
+Build FedNexus, a CPU-only local academic demonstrator using Flower, PyTorch,
+three simulated Flower clients, one Flower server, FedAvg, MNIST, and a
+Streamlit metrics dashboard.
 
 ## Technology decisions
 
@@ -20,6 +22,9 @@ Build a CPU-only local academic demonstrator using Flower, PyTorch, three simula
 5. **Dashboard** — build a Streamlit dashboard to display real saved experiment data and visualizations. *(Completed)*
 6. **Validation and documentation** — run a complete CPU experiment, validate outputs, and write setup/run/architecture documentation. *(Completed)*
 7. **GitHub readiness** — audit the implementation, preserve verified artifacts, prepare repository hygiene and attribution, and create a local checkpoint commit without publishing. *(Completed 2026-11-07)*
+8. **FedNexus publication preparation** — apply the approved FedNexus identity,
+   team responsibility documentation, MIT license for original material, and
+   preserved Flower Apache-2.0 notices before publishing existing history.
 
 ## Phase 7 outcome
 
@@ -31,8 +36,8 @@ Build a CPU-only local academic demonstrator using Flower, PyTorch, three simula
 - Confirmed that the local repository has no prior history or remote and is
   ready for its first local commit. Publishing remains intentionally deferred.
 - Preserved Flower Apache-2.0 attribution and added file-level modified-source
-  notices. The project copyright holder and license choice remain a user
-  decision before public publication.
+  notices. Later publication preparation must keep upstream licensing distinct
+  from the project's own license.
 
 ## Sources consulted
 

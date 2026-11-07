@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "federated-mnist"
+name = "fednexus"
 version = "0.1.0"
-description = "CPU-only federated MNIST classification with Flower and PyTorch"
+description = "FedNexus: a CPU-only distributed federated learning framework for MNIST"
 license = {file = "LICENSE"}
 dependencies = [
     "flwr[simulation]>=1.43.0,<1.44.0",
@@ -22,7 +22,7 @@ dependencies = [
 packages = ["."]
 
 [tool.flwr.app]
-publisher = "local-academic-demo"
+publisher = "fednexus-project-contributors"
 fab-format-version = 1
 flwr-version-target = "1.43.0"
 

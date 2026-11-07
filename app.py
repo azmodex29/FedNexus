@@ -11,7 +11,7 @@ import streamlit as st
 from dashboard.data import checkpoint_details, client_partition_rows, load_experiment
 
 
-st.set_page_config(page_title="Federated MNIST | Flower", page_icon="✦", layout="wide")
+st.set_page_config(page_title="FedNexus | Flower", page_icon="✦", layout="wide")
 
 
 def _fmt_percent(value: float | None) -> str:
@@ -81,7 +81,7 @@ def main() -> None:
         .hero {padding:1.25rem 1.5rem 1.1rem;border:1px solid #dbeafe;border-radius:18px;background:linear-gradient(110deg,#eff6ff,#f8fafc)}
         .hero h1 {margin:0;color:#0f172a;font-size:2rem}.hero p {margin:.45rem 0 0;color:#475569;font-size:1.02rem}
     </style>""", unsafe_allow_html=True)
-    st.markdown("<div class='hero'><h1>Federated Learning Using Flower and PyTorch</h1><p>MNIST classification with three virtual clients, local CNN training, and FedAvg aggregation.</p></div>", unsafe_allow_html=True)
+    st.markdown("<div class='hero'><h1>FedNexus</h1><p>A distributed federated learning framework for MNIST classification with three virtual clients, local CNN training, and FedAvg aggregation.</p></div>", unsafe_allow_html=True)
     st.write("")
 
     if data.errors:

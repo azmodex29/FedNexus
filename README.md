@@ -4,6 +4,8 @@ FedNexus is a CPU-only university project demonstrating federated MNIST image cl
 
 > Repository description: A network of independent clients learning collaboratively through a central aggregation system.
 
+Repository: [github.com/azmodex29/FedNexus](https://github.com/azmodex29/FedNexus)
+
 ## Problem statement and motivation
 
 Centralized machine learning normally requires collecting data in one place. FedNexus demonstrates an alternative workflow: participants retain their local examples, train locally, and exchange model updates for central aggregation. It is an educational simulation, not a production privacy system.

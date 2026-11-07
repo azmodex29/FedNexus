@@ -25,6 +25,7 @@ Streamlit metrics dashboard.
 8. **FedNexus publication preparation** — apply the approved FedNexus identity,
    team responsibility documentation, MIT license for original material, and
    preserved Flower Apache-2.0 notices before publishing existing history.
+   *(Completed and published 2026-11-07)*
 
 ## Phase 7 outcome
 

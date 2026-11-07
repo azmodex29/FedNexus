@@ -99,3 +99,11 @@ If PowerShell's local execution policy prevents activation, use the virtual-envi
 | License scope | Created the approved standard MIT root `LICENSE` for original FedNexus material and preserved the prior Apache-2.0 text verbatim at `THIRD_PARTY_LICENSES/FLOWER-APACHE-2.0.txt` for Flower-derived material. |
 | Validation | Editable `fednexus` installation, experiment verifier, dashboard smoke test, `pip check`, source compilation, result/summary validation, CPU checkpoint loading, README command-help checks, contributor spelling scan, and credential scan completed successfully. |
 
+## 2026-11-07 — GitHub publication
+
+| Check | Actual result |
+| --- | --- |
+| Remote audit | Added `origin` as `https://github.com/azmodex29/FedNexus.git`; `git ls-remote` returned no refs before publication. |
+| Publication | Pushed existing local `master` history normally to remote `main` with `git push -u origin master:main`; no force push or rewrite was used. |
+| Tracking | Local `master` now tracks `origin/main`. |
+

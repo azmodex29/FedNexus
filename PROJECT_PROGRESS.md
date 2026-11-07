@@ -2,8 +2,7 @@
 
 ## Current phase
 
-Phase 8 — FedNexus publication preparation **in progress**. Local history is
-preserved; remote publication remains pending final validation and remote audit.
+Phase 8 — FedNexus publication preparation and GitHub publication **complete**.
 
 ## Completed tasks
 
@@ -57,6 +56,9 @@ preserved; remote publication remains pending final validation and remote audit.
   dashboard tests, `pip check`, source compilation, CPU checkpoint validation,
   documentation-command help checks, contributor spelling checks, and a secret
   scan successfully.
+- Published the preserved three-commit local history to
+  `https://github.com/azmodex29/FedNexus` on remote branch `main`. Local
+  `master` tracks `origin/main`; no force push or history rewrite was used.
 
 ## Failed tasks
 
@@ -65,8 +67,8 @@ preserved; remote publication remains pending final validation and remote audit.
 
 ## Outstanding tasks
 
-- Add the approved GitHub remote only after a clean remote audit, then publish
-  the preserved history without rewriting it.
+- None. Future changes should be reviewed and pushed normally to the existing
+  `origin` remote.
 
 ## Exact commands already executed
 
@@ -109,6 +111,6 @@ py -3.11 -m venv .venv
 
 ## Next action required
 
-Complete the FedNexus branding, license separation, validation, local commit,
-remote audit, and authorized publication without rewriting history.
+FedNexus is published. Any future changes should retain the license separation,
+third-party notices, and verified experiment artifacts.
 

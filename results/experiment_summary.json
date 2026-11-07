@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "completed_at": "2026-11-07T07:03:09.648007+05:30",
+  "random_seed": 20261106,
+  "flower_version": "1.43.0",
+  "dataset": "MNIST",
+  "num_clients": 3,
+  "num_server_rounds": 5,
+  "local_epochs": 1,
+  "aggregation_strategy": "FedAvg",
+  "device": "cpu",
+  "metrics_file": "results/federated_metrics.csv",
+  "model_checkpoint": "results/models/final_global_model.pt",
+  "final_global_metrics": {
+    "loss": 0.07928350340710817,
+    "accuracy": 0.9811
+  }
+}

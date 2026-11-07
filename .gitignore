@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.tmp
+*.temp
+*.bak
+
+# Downloaded data and local runtime caches
+data/
+.flwr/
+ray_results/
+*.ray_session/
+
+# Test, tooling, and Streamlit local state
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Local dashboard/process logs and transient experiment attempts
+dashboard_startup*.log
+results/unstable_run_*/
+results/run_*/
+!results/run_logs/
+!results/run_logs/completed_run.log
+
+# Operating-system and editor metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

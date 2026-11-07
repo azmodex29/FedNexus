@@ -1,0 +1,6 @@
+Flower FedAvg run completed successfully.
+Completed at: 2026-11-07T07:03:09.648007+05:30
+Rounds: 5
+Clients: 3
+Final global loss: 0.07928350340710817
+Final global accuracy: 0.9811
